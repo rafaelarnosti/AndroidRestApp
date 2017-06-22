@@ -62,4 +62,8 @@ public class AndroidAdapter extends RecyclerView.Adapter<AndroidAdapter.AndroidV
 
            }
     }
+    public void update(List<Android> androids){
+        this.androids = androids;
+        notifyDataSetChanged();
+    }
 }
