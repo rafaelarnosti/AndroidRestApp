@@ -36,8 +36,10 @@ public class MainActivity extends AppCompatActivity {
         rvAndroids.setLayoutManager(layoutManager);
         rvAndroids.setAdapter(androidAdapter);
         rvAndroids.setHasFixedSize(true);
+/*
         RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this,DividerItemDecoration.VERTICAL);
         rvAndroids.addItemDecoration(itemDecoration);
+*/
         carregaDados();
     }
 
